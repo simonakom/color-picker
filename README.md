@@ -11,6 +11,8 @@
 
 This is a simple React application - Color Picker, created using Create React App, Tailwind, Css.
 
+Preview - <a href="https://simonakom.github.io/color-picker/build/index.html" style="font-size:small;">here</a>
+
 ## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
