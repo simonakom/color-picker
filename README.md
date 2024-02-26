@@ -1,5 +1,5 @@
 
-# <span style="margin-right: 10px;"><img src="./public/color-wheel.png" alt="Spotify" style="height: 2em; vertical-align: middle;"></span> Color Picker
+# <span style="margin-right: 10px;"><img src="./public/color-wheel.png" alt="colors" style="height: 2em; vertical-align: middle;"></span> Color Picker
 
 <div align="center">
   <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="48 items"/> 
@@ -11,7 +11,7 @@
 
 This is a simple React application - Color Picker, created using React, Tailwind, Css, localStorage
 
-Preview - <a href="https://simonakom.github.io/color-picker/build/index.html" style="font-size:small;">here</a>
+🔹 Preview - <a href="https://simonakom.github.io/color-picker/build/index.html" style="font-size:small;">here</a>
 
 ## Getting Started
 
