@@ -9,7 +9,7 @@
 
 ## Welcome!
 
-This is a simple React application - Color Picker, created using React, Tailwind, Css, localStorage
+This is a simple React responsive application - Color Picker, created using React, Tailwind, Css, localStorage
 
 🔹 Preview - <a href="https://simonakom.github.io/color-picker/build/index.html" style="font-size:small;">here</a>
 
