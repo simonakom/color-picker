@@ -30,7 +30,8 @@ Before you begin, ensure you have the following installed on your machine:
 1. Clone this repository to your local machine
 2. Navigate to the project directory
 3. Install dependencies: `npm install`
-4. Once the dependencies are installed, you can start the development server and run the app:  `npm start`
+4. Install React Icons: `npm install react-icons`
+5. Once the dependencies are installed, you can start the development server and run the app:  `npm start`
 
 ### Viewing the App
 
