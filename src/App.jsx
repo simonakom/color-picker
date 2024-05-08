@@ -1,7 +1,6 @@
 import { useState } from "react"
-import './App.css';
-import ColorPicker from './ColorPicker';
-import TableOfColors from './TableOfColors';
+import ColorPicker from './components/ColorPicker';
+import TableOfColors from './components/TableOfColors';
 
 function App() {
 
@@ -17,13 +16,13 @@ function App() {
   }
 
   return (
-    <div className='flex justify-center items-center min-h-screen my-5 mx-5'>
-    <div className='border border-pink-200 rounded-3xl shadow-2xl p-4 bg-[#ddbac1] min-h-[500px] max-w-[100%]'>
+    <div className='flex justify-center items-center h-screen py-8 px-5'>
+    <div className='border border-pink-200 rounded-2xl shadow-2xl p-4 bg-[#ddbac1] zoom-out'>
       <ColorPicker onColorPick={onColorPick}/>
       <TableOfColors colors={colors} />
     </div>
   </div>
-);
+  );
 }
 
 export default App;

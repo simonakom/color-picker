@@ -1,15 +1,15 @@
 
-# <span style="margin-right: 10px;"><img src="./public/color-wheel.png" alt="colors" style="height: 2em; vertical-align: middle;"></span> Color Picker
+# <span><img src="./public/color-wheel.png" alt="colors" style="height: 1em; vertical-align: middle;"></span> Color Picker
 
 <div align="center">
   <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="48 items"/> 
-  <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20February%2018%2C%202024-267a60.svg" alt="Last update: February 15, 2024" /> 
+  <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20May%2008%2C%202024-267a60.svg" alt="Last update: February 15, 2024" /> 
   <img src="https://img.shields.io/badge/%E2%9C%94%20Updated%20For%20Version%20-%20Node%2020.10.0-187e25.svg" alt="Updated for Node 20.10.0"/>
 </div>
 
 ## Welcome!
 
-This is a simple React responsive application - Color Picker, created using React, Tailwind, Css, localStorage
+This is responsive Color Picker app created using React, Tailwind, Css, localStorage.
 
 🔹 Preview - <a href="https://simonakom.github.io/color-picker/build/index.html" style="font-size:small;">here</a>
 

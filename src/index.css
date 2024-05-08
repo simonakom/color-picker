@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    overflow-x: scroll;
+  }
 @layer components {
     td,th,tr {
         border: 1px solid black;
@@ -10,4 +14,11 @@
         padding: 0.5rem;
         text-align: center;
     }
+}
+
+
+@media screen and (max-width: 700px) {
+	.zoom-out {
+		zoom: 0.7; 
+	}
 }

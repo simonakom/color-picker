@@ -2,8 +2,8 @@ import TableRow from "./TableRow";
 
 function TableOfColors({colors}) { 
     return (
-    <div className="p-4 max-h-[500px] overflow-y-auto">
-    <table className="border border-collapse text-2xl w-[100%] text-zinc-700"> 
+    <div className="p-4 max-h-[400px] overflow-y-auto">
+    <table className="text-xl w-[100%] text-zinc-700"> 
         <thead>
             <tr>
                 <th>ID</th>
