@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    background:#c7b3b7;
+    background:#dac6ca;
     overflow-x: scroll;
 }
 .table-bg {
@@ -19,6 +19,7 @@ body {
         text-align: center;
     }
 }
+
 @media screen and (max-width: 700px) {
 	.zoom-out {
 		zoom: 0.7; 

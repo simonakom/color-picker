@@ -3,7 +3,7 @@ import ColorPicker from './components/ColorPicker';
 import TableOfColors from './components/TableOfColors';
 
 function App() {
-   // State to manage colors
+  // State to manage colors
   const [colors, setColors] = useState(()=>{ 
     // Fetch colors from local storage or initialize an empty array
     const localColors = JSON.parse(localStorage.getItem("colors")) || [];
