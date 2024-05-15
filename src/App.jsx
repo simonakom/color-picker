@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className='flex justify-center items-center mt-5 py-16 px-5'>
-    <div className='border border-neutral-400 rounded-2xl shadow-2xl p-4 table-bg zoom-out'>
+    <div className='border border-neutral-400 rounded-2xl shadow-2xl p-4 table-bg zoom-out min-w-[500px]'>
       {/* ColorPicker component for picking colors */}
       <ColorPicker onColorPick={onColorPick}/>
       {/* TableOfColors component for displaying saved colors */}
