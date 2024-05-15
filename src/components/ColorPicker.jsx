@@ -2,20 +2,29 @@ import { useState } from "react";
 import { CiPickerHalf } from "react-icons/ci";
 
 export default function ColorPicker ({onColorPick}) {
-    const [color, setColor] = useState("#4e2b82");
+    // State to manage selected color
+    const [color, setColor] = useState("#558eb9");
 
+    // Function to save the selected color
     function save () { 
         console.log("save called")
 
+        // Generate a unique ID for the color
         const currentId = localStorage.getItem("currentId") || "1"; 
+        // Fetch existing colors from local storage or initialize an empty array
         const existingColorsJSON = localStorage.getItem("colors") || "[]"; 
-        const existingColors= JSON.parse(existingColorsJSON) 
+        const existingColors = JSON.parse(existingColorsJSON) 
+        // Create a new color object with ID, color value, and current timestamp
         const newColor = {id: currentId, color, date: Date.now()}
+        // Add the new color to the existing colors array
         existingColors.push(newColor) 
 
+        // Update local storage with the updated colors array
         localStorage.setItem("colors", JSON.stringify(existingColors)) 
+        // Update the current ID for the next color
         localStorage.setItem("currentId", `${+currentId+1}`) 
 
+        // Call the onColorPick function provided by the parent component, passing the new color
         onColorPick(newColor); 
     }
 

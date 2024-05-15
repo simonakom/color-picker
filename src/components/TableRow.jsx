@@ -1,5 +1,6 @@
 export default function TableRow ({id,color,colorHex, date}) {
 
+    // Function to parse and format the date
     function parseDate(date){
         const dateObject = new Date(date);
         console.log(dateObject)
@@ -24,9 +25,13 @@ export default function TableRow ({id,color,colorHex, date}) {
 
     return (
         <tr className="text-xl text-zinc-700">
+            {/* Display ID */}
             <td>{id}</td>
+            {/* Display colored box representing the color */}
             <td><div className={`w-[40px] h-[40px] mx-auto`} style={{background: color}}></div></td>
+            {/* Display color hex value */}
             <td>{colorHex}</td>
+            {/* Display formatted date */}
             <td>{parseDate(date) }</td>
         </tr>
     );

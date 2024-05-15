@@ -13,20 +13,22 @@ function TableOfColors({colors}) {
             </tr>
         </thead>
         <tbody>
+            {/* Map through the colors array and render TableRow component for each color */}
             {/* <TableRow id="example" color="#D22828" colorHex="#D22828" date="2024-02-15 09:21" /> */}
-            {colors.map((color => 
+            {colors.map((color, index) => 
             <TableRow 
                 id={color.id} 
                 color={color.color} 
                 colorHex={color.color} 
                 date={color.date}
-                key={color.id} 
+                // key={color.id} 
+                key={index}
             />
-            )) } 
+            )} 
         </tbody>
     </table>
     </div>
-    )
+    );
 }
 
 export default TableOfColors; 

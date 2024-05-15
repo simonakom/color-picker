@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 body {
-    background: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background:#c7b3b7;
     overflow-x: scroll;
-  }
+}
+.table-bg {
+    background: linear-gradient(19deg, #aa67819a 0%, #ddbac1 100%);
+}
+
 @layer components {
     td,th,tr {
         border: 1px solid black;
@@ -15,10 +19,9 @@ body {
         text-align: center;
     }
 }
-
-
 @media screen and (max-width: 700px) {
 	.zoom-out {
 		zoom: 0.7; 
+        margin-top: -50px !important;
 	}
 }
