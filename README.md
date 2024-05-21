@@ -1,5 +1,5 @@
 
-# <span><img src="./public/color-wheel.png" alt="colors" style="height: 1em;"></span> Color Picker
+# <span><img src="./public/color-wheel.png" alt="colors-app" style="height: 1em;"></span> Color Picker
 
 <div>
   <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="license"/> 
